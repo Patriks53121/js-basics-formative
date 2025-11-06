@@ -11,7 +11,7 @@ people = [
     }
 ]
 
-for ($i = 0; $i < people.length; $i++) {
-    console.log("Vārds: " + people[$i].name);
-    //console.log("Vārds: " + people[$i]['name']);
+for (i = 0; i < people.length; i++) {
+    console.log("Vārds: " + people[i].name);
+    //console.log("Vārds: " + people[i]['name']);
 }
